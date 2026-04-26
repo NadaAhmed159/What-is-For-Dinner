@@ -74,6 +74,29 @@ nav.navbar .navbar-toggler:focus {
   overflow-y: auto;
 }
 
+.main-meal .container .row::-webkit-scrollbar,
+.main-meal .content .tab-content .tab-pane::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.main-meal .container .row::-webkit-scrollbar-track,
+.main-meal .content .tab-content .tab-pane::-webkit-scrollbar-track {
+  background: 0 0;
+  border-radius: 10px;
+}
+
+.main-meal .container .row::-webkit-scrollbar-thumb,
+.main-meal .content .tab-content .tab-pane::-webkit-scrollbar-thumb {
+  background: oklch(75% 0.15 35/0.3);
+  border-radius: 10px;
+}
+
+.main-meal .container .row::-webkit-scrollbar-thumb:hover,
+.main-meal .content .tab-content .tab-pane::-webkit-scrollbar-thumb:hover {
+  background: rgb(180, 102, 83);
+}
+
 .main-meal .content {
   padding: 2.5rem;
 }
