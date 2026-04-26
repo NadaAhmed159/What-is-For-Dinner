@@ -915,7 +915,7 @@ function changeRecipe() {
           <div class="col-lg-5">
             <div class="recipe-img h-100 position-relative">
               <img
-                src="${recipe.imgUrl}"
+                src=${recipe.imgUrl}
                 alt="recipe photo"
                 class="w-100 h-100 object-fit-cover"
               />
