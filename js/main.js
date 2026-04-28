@@ -911,22 +911,23 @@ function changeRecipe() {
     
     
           <div class="container">
-        <div class="row g-4 g-lg-0">
-          <div class="col-lg-5">
-            <div class="recipe-img h-100 position-relative">
+        <div class="row m-2 shadow overflow-hidden g-lg-0">
+          <div class="col-lg-5 p-0">
+            <div class="recipe-img  position-relative">
               <img
                 src=${recipe.imgUrl}
                 alt="recipe photo"
                 class="w-100 h-100 object-fit-cover"
               />
+              <div class="overlay position-absolute">
               <div
-                class="position-absolute rating bg-white py-2 px-3 rounded-pill"
+                class=" rating bg-white py-2 px-3 rounded-pill"
               >
                 <i class="fas fa-star text-warning"></i>
                 <span class="fw-bold">${recipe.rate}</span>
                 <span class="total-rev">(${recipe.totalReviews} reviews)</span>
               </div>
-              <div class="stats p-4 position-absolute text-bg-light">
+              <div class="stats py-3  p-lg-4 text-bg-light">
                 <div class="row">
                   <div class="col-4">
                     <div
@@ -957,10 +958,11 @@ function changeRecipe() {
                   </div>
                 </div>
               </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-7">
-            <div class="content h-100 bg-white">
+          <div class="col-lg-7 p-0">
+            <div class="content p-3 bg-white">
               <div class="d-flex gap-2">
                 <span class="diffeculty py-1 px-2 rounded-pill">
                   ${recipe.diffeculty}
@@ -988,10 +990,10 @@ function changeRecipe() {
               </p>
               ${alertdiv}
 
-              <ul class="nav nav-pills mb-4 p-3" id="pills-tab" role="tablist">
+              <ul class="nav nav-pills justify-content-around gap-2 mb-4 p-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
                   <button
-                    class="nav-link active"
+                    class="nav-link pt-0 active"
                     id="pills-ingredients-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-ingredients"
@@ -1006,7 +1008,7 @@ function changeRecipe() {
                 </li>
                 <li class="nav-item" role="presentation">
                   <button
-                    class="nav-link"
+                    class="nav-link pt-0"
                     id="pills-instructions-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-instructions"
@@ -1021,7 +1023,7 @@ function changeRecipe() {
                 </li>
                 <li class="nav-item" role="presentation">
                   <button
-                    class="nav-link"
+                    class="nav-link pt-0"
                     id="pills-nutrition-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-nutrition"
@@ -1036,7 +1038,7 @@ function changeRecipe() {
                 </li>
                 <li class="nav-item" role="presentation">
                   <button
-                    class="nav-link"
+                    class="nav-link pt-0"
                     id="tips-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-tips"

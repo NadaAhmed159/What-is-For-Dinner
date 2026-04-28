@@ -75,63 +75,61 @@
     <!--^ start main meal -->
     <section id="main-meal" class="main-meal py-5">
       <div class="container">
-        <div class="row g-4 g-lg-0">
-          <div class="col-lg-5">
-            <div class="recipe-img h-100 position-relative">
+        <div class="row m-2 g-lg-0 shadow overflow-hidden">
+          <div class="col-lg-5 p-0">
+            <div class="recipe-img position-relative">
               <img
                 src="./images/photo-1574071318508-1cdbab80d002.jfif"
                 alt="recipe photo"
                 class="w-100 h-100 object-fit-cover"
               />
-              <div
-                class="position-absolute rating bg-white py-2 px-3 rounded-pill"
-              >
-                <i class="fas fa-star text-warning"></i>
-                <span class="fw-bold">4.9</span>
-                <span class="total-rev">(512 reviews)</span>
-              </div>
-              <div class="stats p-4 position-absolute text-bg-light">
-                <div class="row">
-                  <div class="col-4">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <i class="fas fa-clock"></i>
-                      <p class="m-0">Prep Time</p>
-                      <span class="fw-bold">90 min</span>
+              <div class="overlay position-absolute">
+                <div class="rating bg-white py-2 px-3 rounded-pill">
+                  <i class="fas fa-star text-warning"></i>
+                  <span class="fw-bold">4.9</span>
+                  <span class="total-rev">(512 reviews)</span>
+                </div>
+                <div class="stats py-3  p-lg-4 text-bg-light">
+                  <div class="row ">
+                    <div class="col-4">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <i class="fas fa-clock"></i>
+                        <p class="m-0">Prep Time</p>
+                        <span class="fw-bold">90 min</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <i class="fas fa-fire-burner"></i>
-                      <p class="m-0">Cook Time</p>
-                      <span class="fw-bold">12 min</span>
+                    <div class="col-4">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <i class="fas fa-fire-burner"></i>
+                        <p class="m-0">Cook Time</p>
+                        <span class="fw-bold">12 min</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col-4">
-                    <div
-                      class="d-flex flex-column justify-content-center align-items-center"
-                    >
-                      <i class="fas fa-users"></i>
-                      <p class="m-0">Servings</p>
-                      <span class="fw-bold">2 people</span>
+                    <div class="col-4">
+                      <div
+                        class="d-flex flex-column justify-content-center align-items-center"
+                      >
+                        <i class="fas fa-users"></i>
+                        <p class="m-0">Servings</p>
+                        <span class="fw-bold">2 people</span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-7">
-            <div class="content h-100 bg-white">
+          <div class="col-lg-7 p-0">
+            <div class="content p-3  bg-white">
               <div class="d-flex gap-2">
                 <span class="diffeculty py-1 px-2 rounded-pill">
                   Intermediate
                 </span>
-                <span class="country py-1 px-2 rounded-pill">
-                  Italian
-                </span>
+                <span class="country py-1 px-2 rounded-pill"> Italian </span>
               </div>
               <div class="head d-flex justify-content-between">
                 <h3 class="fw-bold">Margherita Pizza</h3>
@@ -162,10 +160,14 @@
                 </div>
               </div>
 
-              <ul class="nav nav-pills justify-content-around mb-4 p-3" id="pills-tab" role="tablist">
+              <ul
+                class="nav nav-pills justify-content-around gap-2 mb-4 p-3"
+                id="pills-tab"
+                role="tablist"
+              >
                 <li class="nav-item" role="presentation">
                   <button
-                    class=" nav-link pt-0  active"
+                    class="nav-link pt-0 active"
                     id="pills-ingredients-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-ingredients"
@@ -180,7 +182,7 @@
                 </li>
                 <li class="nav-item" role="presentation">
                   <button
-                    class=" nav-link pt-0 "
+                    class="nav-link pt-0"
                     id="pills-instructions-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-instructions"
@@ -195,7 +197,7 @@
                 </li>
                 <li class="nav-item" role="presentation">
                   <button
-                    class=" nav-link pt-0 "
+                    class="nav-link pt-0"
                     id="pills-nutrition-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-nutrition"
@@ -210,7 +212,7 @@
                 </li>
                 <li class="nav-item" role="presentation">
                   <button
-                    class=" nav-link pt-0 "
+                    class="nav-link pt-0"
                     id="tips-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-tips"
@@ -271,7 +273,9 @@
                       >
                         5
                       </span>
-                      <p class="ingredient ms-1 mb-0">2 tablespoons olive oil</p>
+                      <p class="ingredient ms-1 mb-0">
+                        2 tablespoons olive oil
+                      </p>
                     </div>
                     <div class="d-flex gap-2">
                       <span
@@ -279,7 +283,9 @@
                       >
                         6
                       </span>
-                      <p class="ingredient ms-1 mb-0">2 cloves garlic, minced</p>
+                      <p class="ingredient ms-1 mb-0">
+                        2 cloves garlic, minced
+                      </p>
                     </div>
                     <div class="d-flex gap-2">
                       <span
@@ -287,7 +293,9 @@
                       >
                         7
                       </span>
-                      <p class="ingredient ms-1 mb-0">Salt and pepper to taste</p>
+                      <p class="ingredient ms-1 mb-0">
+                        Salt and pepper to taste
+                      </p>
                     </div>
                     <div class="d-flex gap-2">
                       <span
@@ -295,7 +303,9 @@
                       >
                         8
                       </span>
-                      <p class="ingredient ms-1 mb-0">Parmesan cheese for topping</p>
+                      <p class="ingredient ms-1 mb-0">
+                        Parmesan cheese for topping
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -313,7 +323,10 @@
                       >
                         1
                       </span>
-                      <p class="instruction ms-1 mb-0">Let pizza dough come to room temperature and rest for 1 hour.</p>
+                      <p class="instruction ms-1 mb-0">
+                        Let pizza dough come to room temperature and rest for 1
+                        hour.
+                      </p>
                     </div>
                     <div class="d-flex gap-2 mb-4 align-items-center">
                       <span
@@ -321,7 +334,10 @@
                       >
                         2
                       </span>
-                      <p class="instruction ms-1 mb-0">Preheat oven to maximum temperature (usually 250°C/480°F).</p>
+                      <p class="instruction ms-1 mb-0">
+                        Preheat oven to maximum temperature (usually
+                        250°C/480°F).
+                      </p>
                     </div>
                     <div class="d-flex gap-2 mb-4 align-items-center">
                       <span
@@ -329,7 +345,10 @@
                       >
                         3
                       </span>
-                      <p class="instruction ms-1 mb-0">Mix crushed tomatoes with olive oil, garlic, salt, and pepper for the sauce.</p>
+                      <p class="instruction ms-1 mb-0">
+                        Mix crushed tomatoes with olive oil, garlic, salt, and
+                        pepper for the sauce.
+                      </p>
                     </div>
                     <div class="d-flex gap-2 mb-4 align-items-center">
                       <span
@@ -337,7 +356,10 @@
                       >
                         4
                       </span>
-                      <p class="instruction ms-1 mb-0">Roll out dough on a floured surface to desired thickness.</p>
+                      <p class="instruction ms-1 mb-0">
+                        Roll out dough on a floured surface to desired
+                        thickness.
+                      </p>
                     </div>
                     <div class="d-flex gap-2 mb-4 align-items-center">
                       <span
@@ -345,7 +367,10 @@
                       >
                         5
                       </span>
-                      <p class="instruction ms-1 mb-0">Spread tomato sauce, add torn mozzarella pieces, and drizzle with olive oil.</p>
+                      <p class="instruction ms-1 mb-0">
+                        Spread tomato sauce, add torn mozzarella pieces, and
+                        drizzle with olive oil.
+                      </p>
                     </div>
                     <div class="d-flex gap-2 mb-4 align-items-center">
                       <span
@@ -353,7 +378,10 @@
                       >
                         6
                       </span>
-                      <p class="instruction ms-1 mb-0">Bake for 10-12 minutes until crust is golden. Top with fresh basil and parmesan.</p>
+                      <p class="instruction ms-1 mb-0">
+                        Bake for 10-12 minutes until crust is golden. Top with
+                        fresh basil and parmesan.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -459,35 +487,46 @@
                   tabindex="0"
                 >
                   <div class="tips-tab">
-                    <div class="tip d-flex gap-2 p-3  mb-3 align-items-center">
-                      <span >
+                    <div class="tip d-flex gap-2 p-3 mb-3 align-items-center">
+                      <span>
                         <i class="fas fa-circle-check"></i>
                       </span>
-                      <p class="tip m-0">Use a pizza stone for crispier crust</p>
+                      <p class="tip m-0">
+                        Use a pizza stone for crispier crust
+                      </p>
                     </div>
-                    <div class="tip d-flex gap-2 p-3 mb-3  align-items-center">
-                      <span >
+                    <div class="tip d-flex gap-2 p-3 mb-3 align-items-center">
+                      <span>
                         <i class="fas fa-circle-check"></i>
                       </span>
-                      <p class="tip m-0">Don't overload with toppings - less is more</p>
+                      <p class="tip m-0">
+                        Don't overload with toppings - less is more
+                      </p>
                     </div>
-                    <div class="tip d-flex gap-2 p-3  mb-3 align-items-center">
-                      <span >
+                    <div class="tip d-flex gap-2 p-3 mb-3 align-items-center">
+                      <span>
                         <i class="fas fa-circle-check"></i>
                       </span>
-                      <p class="tip m-0">Add basil after baking to keep it fresh</p>
+                      <p class="tip m-0">
+                        Add basil after baking to keep it fresh
+                      </p>
                     </div>
-                    <div class="tip d-flex gap-2 p-3  mb-3 align-items-center">
-                      <span >
+                    <div class="tip d-flex gap-2 p-3 mb-3 align-items-center">
+                      <span>
                         <i class="fas fa-circle-check"></i>
                       </span>
-                      <p class="tip m-0">Let dough rest properly for best texture</p>
+                      <p class="tip m-0">
+                        Let dough rest properly for best texture
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="pt-3 mt-4 btn-toggel">
-                <button class="px-4 border-0 text-white" onclick="changeRecipe()">
+                <button
+                  class="px-4 border-0 text-white"
+                  onclick="changeRecipe()"
+                >
                   <i class="fa-solid fa-arrows-rotate"></i> Try Another Recipe
                 </button>
               </div>
